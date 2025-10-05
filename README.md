@@ -43,7 +43,7 @@ npm start
 
 The server will start on `http://localhost:1221`.
 
-## API Endpoints
+## API Endpoint
 
 All endpoints are prefixed with `/api`.
 
