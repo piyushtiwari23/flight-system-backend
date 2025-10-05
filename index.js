@@ -20,4 +20,4 @@ app.use('/uploads', express.static('uploads'))
 app.use('/api/auth', authRoutes)        // user/ admin login or registration
 app.use('/api/flights', flightRoutes)   // adding/ updating/ deleting/ and fething flights
 
-app.listen(5002, ()=> console.log(' Server is running on port 5002.'))
+app.listen(1221, ()=> console.log(' Server is running on port 1221.'))
