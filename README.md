@@ -16,7 +16,7 @@ The backend provides a RESTful API for managing flights and users. It handles us
 
 ### Installation
 
-1.  Clone the repository or download the source code.
+1.  Clone the repository or download the source code
 2.  Navigate to the `backend` directory.
 3.  Install the dependencies:
     ```bash
