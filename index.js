@@ -17,7 +17,10 @@ app.use(cors())
 app.use(express.json())
 app.use('/uploads', express.static('uploads'))
 
+import bookingRoutes from './routes/booking.js'
+
 app.use('/api/auth', authRoutes)        // user/ admin login or registration
 app.use('/api/flights', flightRoutes)   // adding/ updating/ deleting/ and fething flights
+app.use('/api/bookings', bookingRoutes) // handling flight bookings
 
 app.listen(1221, ()=> console.log(' Server is running on port 1221.'))
